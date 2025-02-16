@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+ul li {
+    list-style: square;
+}
+.header-links {
+    display: flex;
+    gap: 15px;
+}
+
+.header-links h4 {
+    margin: 0; 
+}
