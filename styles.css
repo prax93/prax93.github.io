@@ -3,11 +3,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    background-color: #282A36;
+    color: #F8F8F2;
+}
+
+hr {
+    border-top: 2px dotted #6272A4;
+  }
+
+a, a:visited{
+    color: #BD93F9;
 }
 
 ul li {
     list-style: square;
+    color: #50FA7B;
 }
 .header-links {
     display: flex;
@@ -16,4 +26,41 @@ ul li {
 
 .header-links h4 {
     margin: 0; 
+}
+
+
+@media only screen and  (max-width: 476px){
+    body {
+        font-family: 'Courier New', Courier, monospace;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin-left: 2em;
+        margin-right: 2em;
+        background-color: #282A36;
+        color: #F8F8F2;
+    }
+
+    a, a:visited{
+        color: #BD93F9;
+    }
+
+    br {
+        display: none;
+    }
+    
+    .header-links h6 {
+        margin: 0; 
+    }
+    
+    label {
+        color: #F8F8F2;
+    }
+
+    li {
+        list-style: square;
+        color: #50FA7B;
+    }
+
+
 }
