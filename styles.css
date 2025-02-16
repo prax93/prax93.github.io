@@ -1,9 +1,9 @@
 body {
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin: 0;
 }
 
 ul li {
