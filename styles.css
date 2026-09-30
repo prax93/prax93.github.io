@@ -4,7 +4,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #282A36;
-    color: #F8F8F2;
+    color:#F8F8F2;
 }
 
 hr {
@@ -13,6 +13,11 @@ hr {
 
 a, a:visited{
     color: #BD93F9;
+
+}
+
+label {
+    color: #6272a4;
 }
 
 ul li {
@@ -38,7 +43,6 @@ ul li {
         margin-left: 2em;
         margin-right: 2em;
         background-color: #282A36;
-        color: #F8F8F2;
     }
 
     a, a:visited{
@@ -54,7 +58,7 @@ ul li {
     }
     
     label {
-        color: #F8F8F2;
+        color: #6272a4;
     }
 
     li {
